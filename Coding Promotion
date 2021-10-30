@@ -8,7 +8,8 @@ public class Promotion {
 		int count = 12;
 		double sum = 490.27;
 		double result = sum / count;
-        System.out.println("Result : " + result);
+        System.out.print("Result : ");
+        System.out.printf("%.2f", result);
 	}
 
 }
