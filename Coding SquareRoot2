@@ -8,7 +8,7 @@ public class SquareRoot2 {
 		char y = 'b';
 		char z = 'c';
 		double formula;
-		formula = (-y + Math.sqrt(y * y - 4 * x * z)) / (2 * x);
+		formula = (-y + Math.sqrt(y * y - (-4) * x * z)) / (2 * x);
 		//squareroot -ve is false or math error
 	    double i = y*y;
 	    double j = 4*x*z;
